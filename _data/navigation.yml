@@ -2,9 +2,13 @@
 
 - text: Home
   url: /
-- text: About
+- text: Nyheder
+  url: /news
+- text: Vidensbank
+  url: /viden
+- text: Billeder
+  url: /images
+- text: Om os
   url: /about
-- text: Contact
+- text: Kontakt
   url: /contact
-- text: Blog
-  url: /blog

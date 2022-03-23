@@ -1,0 +1,16 @@
+---
+layout: page
+title: Billeder
+meta_description: |
+  Billeder
+permalink: /images
+section: images
+intro_paragraph: |
+  Billedbibliotek og mange mange mange mange mange flere ord?
+---
+
+<!-- nanogallery2 portable - http://nano.gallery -->
+<div id="ngy2p" data-nanogallery2-portable='{"userID":"148721630@N07","kind":"flickr","photoset":"none","thumbnailWidth":"auto","thumbnailHeight":"300","thumbnailBorderVertical":0,"thumbnailBorderHorizontal":0,"thumbnailDisplayTransition":"slideUp","thumbnailDisplayTransitionDuration":200,"thumbnailLabel":{"display":false},"galleryDisplayMode":"pagination","galleryLastRowFull":true,"galleryPaginationMode":"dots","thumbnailAlignment":"center","gallerySorting":"random"}'>nanogallery2</div>
+<script> var st = document.createElement('script'); st.type = 'text/javascript'; st.src = '//nano.gallery/portable.php?k=f&u='+encodeURI(window.location.href); document.getElementsByTagName('head')[0].appendChild(st); </script>
+<noscript>Please enable javascript to view the <a href="//nano.gallery">gallery powered by nanogallery2.</a></noscript>
+<!-- end nanogallery2 -->
