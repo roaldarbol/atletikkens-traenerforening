@@ -7,6 +7,8 @@ permalink: /about
 section: about
 intro_paragraph: ""
 ---
+# Indmeldelse
+For at melde dig ind I Atletikkens Trænerforening, udfyld venligst [indmeldelsesblanketten](https://comforting-salmiakki-a3bb27.netlify.app/assets/img/uploads/indmeldelse.pdf) og send til [indmeldelse@ATF.dk]().
 
 # Bestyrelse
 Formand: Jens B. Christensen  
