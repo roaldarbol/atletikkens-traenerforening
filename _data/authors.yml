@@ -8,4 +8,7 @@ dan_urbanowicz:
 john_doe:
     name: John Doe
     email: johndoe@email.com
-    web: http://twitter.com/johndoe
+    web: https://twitter.com/johndoe
+mikkel_roald:
+    name: Mikkel Roald-Arbøl
+    web: https://roald-arboel.com
