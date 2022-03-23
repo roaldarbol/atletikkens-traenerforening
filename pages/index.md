@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Welcome
+title: Atletikkens Trænerforening
 permalink: /
 section: home
 intro_paragraph: >
