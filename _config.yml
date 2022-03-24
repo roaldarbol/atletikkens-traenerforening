@@ -54,6 +54,24 @@ defaults:
       layout: "post" # set the correct default template for a post
       section: "post" # set the root section name
 
+# gems
+plugins:
+  - jekyll-paginate-v2
+
+# pagination
+# Pagination Settings
+pagination:
+  enabled: true
+  per_page: 3
+  permalink: 'news/page/:num/'
+  title: ' - page :num'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+
+# # Produces a cleaner folder structure when using categories
+# permalink: /:year/:month/:title.html
+
 # Build settings
 markdown: kramdown
 

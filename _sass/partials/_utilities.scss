@@ -41,11 +41,11 @@ a {
 	outline: none;
 }
 
-// ul,
-// ol,
-// dl {
-// 	list-style: none;
-// }
+ul,
+ol,
+dl {
+	list-style: none;
+}
 
 em {
 	font-style: italic;
@@ -61,6 +61,12 @@ img {
   width: 100%;
   max-width: 100%;
   height: auto;
+}
+
+img[alt=portræt] { 
+	height: 200px;
+	width: auto;
+	float: right; 
 }
 
 pre {

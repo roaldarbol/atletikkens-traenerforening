@@ -6,13 +6,9 @@ date: 2022-03-23 13:52:44
 intro_paragraph: >-
   I denne præmiere på Månedens Foto, har vi fundet et billede af den danske 400m
   rekordholder Benjamin Lobo Vedel.
-
-
-  Billedet er hentet fra Christian Jørns arkiv og er fra Copenhagen Games 2019.
-
-
-  ![](/assets/img/uploads/lobo-vedel.jpeg)
+  
 ---
+![Billedet er hentet fra Christian Jørns arkiv og er fra Copenhagen Games 2019.](/assets/img/uploads/lobo-vedel.jpeg)
 # Lidt om Benjamin
 
 Benjamin har været igennem mange op og nedture og afprøvet mange forskellige træningsmiljøer gennem tiden.

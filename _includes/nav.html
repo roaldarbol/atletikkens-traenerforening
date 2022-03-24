@@ -1,0 +1,45 @@
+<div class="collapse navbar-collapse" id="navbarResponsive"></div>
+    <ul>
+      {% for nav in site.data.nav %}
+        {% if nav.subcategories != null %}
+          <li class="nav-item">
+            <a href="{{ site.url }}{{ nav.url }}">{{ nav.title }} ▼</a>
+            <ul>
+            {% for subcategory in nav.subcategories %}
+              <li class="nav-item"><a href="{{ site.url }}{{ subcategory.subhref }}">{{ subcategory.subtitle }}</a></li>
+            {% endfor %}
+            </ul>
+          </li>
+        {% elsif nav.title == page.title %}
+           <li class="active">
+             <a href="{{ nav.url }}">{{ nav.title }}</a>
+           </li>
+        {% else %} 
+          <li class="nav-item">
+            <a href="{{ site.url }}{{ nav.url }}">{{ nav.title }}</a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+</div>
+
+<div class="collapse navbar-collapse" id="navbarResponsive">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="/">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/about">About</a>
+      </li>
+      <li class="nav-item" id="site-category">
+        <a class="nav-link" href="/posts">Posts</a>
+        <ul>
+          <li><a href="/posts/spring">Spring</a></li>
+          <li><a href="/posts/jekyll">Jekyll</a></li>
+      </ul>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/contact">Contact</a>
+      </li>
+    </ul>
+  </div>
